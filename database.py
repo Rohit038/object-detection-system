@@ -11,7 +11,7 @@ def save_analysis_if_configured(
     detections: pd.DataFrame,
     processing_time_ms: float,
 ) -> None:
-    database_url = os.getenv("postgresql://postgres:3236@localhost:5432/object_detection")
+    database_url = os.getenv("DATABASE_URL")
     if not database_url:
         return
 
