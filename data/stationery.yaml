@@ -1,0 +1,21 @@
+# EXAMPLE ONLY. Make sure these class IDs match your annotation tool's class order.
+# Edit the names to exactly match the classes you actually labeled.
+path: data/stationery
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: pen
+  1: pencil
+  2: notebook
+  3: book
+  4: eraser
+  5: ruler
+  6: sharpener
+  7: stapler
+  8: scissors
+  9: marker
+  10: bottle
+  11: glass
+  12: laptop
